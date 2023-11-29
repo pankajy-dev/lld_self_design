@@ -1,4 +1,5 @@
 package tictactoe;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +12,6 @@ import tictactoe.model.Symbol;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		GameController gameController = new GameController();
 		List<Player> players = new ArrayList<>();
 		players.add(new Player(1, "Pankaj", new Symbol('x'), PlayerType.HUMAN));
