@@ -27,7 +27,7 @@ public class Main {
 
 		List<Player> players = new ArrayList<>();
 
-		players.add(new Player(1, "Pankaj", new Symbol('x'), PlayerType.HUMAN));
+		players.add(new Player(1, "Piyush", new Symbol('x'), PlayerType.HUMAN));
 		players.add(new Bot(2, "GPT", new Symbol('o'), BotDifficultyLevel.EASY));
 
 		List<WinnningStrategies> winStrategies = new ArrayList<>();

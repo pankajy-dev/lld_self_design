@@ -15,7 +15,7 @@ public class EasyBotStrategy implements BotPlayingStrategy {
 		int col = -1;
 
 		System.out.println();
-		System.out.println(game.getCurrentPlayer().getName() + "'s played.");
+		System.out.println(game.getCurrentPlayer().getName() + " played.");
 
 		for (int j = 0; j < game.getDimension(); j++) {
 			for (int i = 0; i < game.getDimension(); i++) {
